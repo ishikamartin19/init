@@ -1,0 +1,78 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('BackImage3.jpg');
+    background-size: cover;
+    background-position: center;
+}
+h1 {
+    font-family: cursive;
+    color:rgb(228, 219, 226)
+}
+h3 {
+    font-family:cursive;
+}
+
+/* Rest of your styling */
+header {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fcf9fc;
+    text-align: center;
+    padding: 1rem;
+}
+
+main {
+    padding: 2rem;
+}
+
+footer {
+    background-color: rgba(231, 133, 185, 0.6);
+    color: #34052f;
+    font-size: larger;
+    font-family: cursive;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+#login-form {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    padding: 2rem;
+    margin: auto;
+    max-width: 300px;
+    text-align: center;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.event-card {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+}
+.event-image {
+    width:100px;
+    height: 100px;
+    border-radius: 5px;
+}
+.event-details {
+    flex: 1;
+}
+
+.event-cost {
+    font-weight: bold;
+    color: #25c71d;
+}
+.book-button {
+    background-color: #00080c;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
